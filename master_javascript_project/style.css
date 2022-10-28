@@ -1,0 +1,109 @@
+.employee-form {
+    width:100%;
+    /* padding: 10px; */
+    margin: auto;
+    display:flex;
+}
+
+.employees-table {
+
+    /* padding: 20px; */
+    margin: auto;
+    width: 100%;
+}
+
+.container_master{
+    width:100%;
+    display: flex;
+justify-content: space-around;
+    /* border: 1px solid black; */
+}
+
+body > table{
+    width: 80%;
+}
+
+table{
+    border-collapse: collapse;
+}
+table.list{
+    width:100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even),table.list thead>tr {
+    background-color: #dddddd;
+}
+
+input[type=text], input[type=number] {
+    width: 100%;
+    /* padding: 8px 20px; */
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+select{
+    width:250px;
+
+}
+
+input[type=submit] {
+    width: 25%;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    /* margin: 0px 0; */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.main{
+	margin:10px;
+}
+
+.form-action-buttons{
+    width:200px;
+    margin:10px;	
+}
+.form-action-buttons input{
+	width:200px;
+	
+}
+
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000ee;
+    margin-right: 4px;
+}
+
+label.validation-error{
+    color:   red;
+    margin-left: 5px;
+}
+
+.hide{
+    display:none;
+}
+
+/*........................dedupe...........*/
+.button {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .button5 {border-radius: 50%;}
+  

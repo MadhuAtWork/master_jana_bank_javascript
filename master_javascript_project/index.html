@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+  <title>
+      master1
+  </title>
+   <link rel="stylesheet" href="style.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main_container">
+          <div class="employee-form">
+             <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off" class="container_master"> 
+                  <div class="main">
+                      <label>city code</label><label class="validation-error hide" id="citycodeValidationError"></label>
+                      <input type="text" name="citycode" id="citycode">
+                  </div>
+                  <div class="main">
+                      <label>city name</label>
+                      <input type="text" name="cityname" id="cityname">
+                  </div>
+                  <div class="main">
+                      <label>location</label>
+                      <input type="text" name="location" id="location">
+                  </div>
+                  <div class="main">
+                      <label>status</label>
+                      <br>
+                      <select id="status">
+                        <option id="yes"  onchange="onchangheselcet()">yes</option>
+                        <option id="no">no</option>
+                      </select>
+                    
+                    </input>
+
+                  </div>
+                
+                  <div  class="form-action-buttons">
+                  <br>
+                      <input type="submit" value="Save">
+                  </div>
+              </form>
+      </div>
+      <hr>  
+      <br/>
+      <div class = "employees-table">
+              <table  id="employeeList" class="table table-striped table-hover">
+                  <thead>
+                      <tr>
+                          <th>city code</th>
+                          <th>city name</th>
+                          <th>location</th>
+                          <th>update time</th>
+                          <th>Activate</th>
+                          <th>status</th>
+                      </tr>
+                  </thead>
+                  <tbody >
+
+                  </tbody>
+              </table>
+      </div>
+    </div>
+ <script src="script.js"></script>
+   
+</body>
+</html>
